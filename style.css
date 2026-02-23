@@ -1,0 +1,113 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #b10dfd;
+    color: white;
+    padding: 30px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #710dfd;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background-color: #d10dfd;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Achievements */
+#achievements ul {
+    list-style: square;
+    width: 50%;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #7a42a1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
