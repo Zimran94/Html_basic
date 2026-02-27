@@ -1,2 +1,2 @@
 Mobile responsive output
-<img width="688" height="829" alt="Screenshot 2026-02-27 171939" src="https://github.com/user-attachments/assets/c73cbd25-aa06-4cd1-a419-f854401f0fde" />
+<img width="949" height="999" alt="Screenshot 2026-02-27 171945" src="https://github.com/user-attachments/assets/c820dba4-1b5e-497e-bda6-b07d7f2853e7" />
