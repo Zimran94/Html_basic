@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Fernando - Personal Website</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* CONTAINER (WIDTH CHANGES AUTOMATICALLY) */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* HEADER */
+        header {
+            background: #4CAF50;
+            color: white;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HERO */
+        .hero {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #4CAF50;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #ddd;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* ===================== */
+        /* 📱 MOBILE (≤600px) */
+        /* ===================== */
+        @media (max-width: 600px) {
+
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+
+            .skills {
+                flex-direction: column;
+            }
+        }
+
+        /* ===================== */
+        /* 📱 TABLET (≤900px) */
+        /* ===================== */
+        @media (max-width: 900px) {
+
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>Angel Fernando</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <h2>Hello! I'm Angel</h2>
+            <p>Data Science Student | Athlete</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a first-year Data Science student at NIBM. I work with Python,
+                Machine Learning, and IoT projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">Machine Learning</div>
+                <div class="skill">IoT</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Angel Fernando</p>
+    </footer>
+
+</body>
+</html>
